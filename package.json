@@ -41,6 +41,7 @@
     "vite-plugin-pwa": "0.21.1",
     "vite-plugin-svgr": "4.2.0",
     "vitest": "3.0.6",
+    "strip-ansi": "7.1.0",
     "vitest-canvas-mock": "0.3.3"
   },
   "engines": {
@@ -82,8 +83,5 @@
     "rm:build": "rimraf --glob excalidraw-app/build excalidraw-app/dist excalidraw-app/dev-dist packages/*/dist packages/*/build examples/*/build examples/*/dist",
     "rm:node_modules": "rimraf --glob node_modules excalidraw-app/node_modules packages/*/node_modules",
     "clean-install": "yarn rm:node_modules && yarn install"
-  },
-  "resolutions": {
-    "strip-ansi": "6.0.1"
   }
 }
